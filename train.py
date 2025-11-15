@@ -47,7 +47,7 @@ if __name__ == "__main__":
 
     # --- 4. Training Loop ---
     print("Starting training...")
-    num_epochs = 100  # Number of times to loop over the data
+    num_epochs = 50000  # Number of times to loop over the data
     
     for epoch in range(num_epochs):
         # Forward pass: Get model's predictions
